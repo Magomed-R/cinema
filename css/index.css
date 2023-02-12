@@ -217,6 +217,12 @@ footer {
     }
 }
 
+@media (min-width: 1820px) {
+    footer {
+        position: static;
+    }
+}
+
 @media (min-width: 571px) and (max-width: 1212px) {
     footer {
         display: flex;
@@ -225,7 +231,6 @@ footer {
         width: 100%;
         height: 100%;
         margin-bottom: 10px;
-        position: static;
     }
 
     header img {

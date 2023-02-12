@@ -244,8 +244,8 @@ footer {
     }
 }
 
-@media (max-width: 1820px) {
+@media (min-width: 1820px) {
     footer {
-        position: static;
+        position: static !important;
     }
 }

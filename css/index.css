@@ -217,12 +217,6 @@ footer {
     }
 }
 
-@media (min-width: 1820px) {
-    footer {
-        position: static;
-    }
-}
-
 @media (min-width: 571px) and (max-width: 1212px) {
     footer {
         display: flex;
@@ -247,5 +241,11 @@ footer {
 
     .main section article .btn-danger {
         opacity: 1;
+    }
+}
+
+@media (max-width: 1820px) {
+    footer {
+        position: static;
     }
 }
